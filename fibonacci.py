@@ -5,5 +5,5 @@ def fib(N):
 		return 1
 	return fib(N-1)+fib(N-2)
 	
-	
-print(fib(4))
+for i in range(8):	
+	print(fib(i))
